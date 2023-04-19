@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Forget() {
   return (
     <>
@@ -27,7 +27,7 @@ export default function Forget() {
             </label>
             <p className="message">
               {" "}
-              <a href="/">Forget Password?</a>
+             <Link to="/">Forget Password?</Link>
             </p>
           </form>
         </div>
