@@ -1,5 +1,6 @@
 import React from 'react'
 import demoAdmit from "../assets/demo2.png"
+import { Link } from 'react-router-dom';
 export default function Admit() {
     const handlePrint = () => {
         window.print();
@@ -13,8 +14,8 @@ export default function Admit() {
       </div>
     </div>
     <div className="text-center  my-3">
-      <a href="/about" className="btn btn-primary ">Back</a> 
-      <a href="" className="btn btn-primary mx-3" onClick={handlePrint}>Print</a>
+      <Link to="/about" className="btn btn-primary ">Back</Link> 
+      <Link to="" className="btn btn-primary mx-3" onClick={handlePrint}>Print</Link>
     </div>
   </>
   )
