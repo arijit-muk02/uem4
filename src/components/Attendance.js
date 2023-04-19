@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Attendance() {
   return (
     <>
@@ -36,7 +36,7 @@ export default function Attendance() {
   </div>
 </section>
 <div className="text-center">
-  <a href="/about" className='btn btn-primary'>Back</a>
+  <Link to="/about" className='btn btn-primary'>Back</Link>
 </div>
     </>
   )
