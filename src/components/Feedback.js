@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/feedback.css';
-
+import { Link } from 'react-router-dom';
 export default function Feedback() {
   return (
     <div>
@@ -35,7 +35,7 @@ export default function Feedback() {
           </div>
         </form>
         <div className="text-center">
-  <a href="/about" className='btn my-3 btn-primary'>Back</a>
+  <Link to="/about" className='btn my-3 btn-primary'>Back</Link>
 </div>
       </div>
     </div>
