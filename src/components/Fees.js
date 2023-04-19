@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/fees.css';
+import { Link } from 'react-router-dom';
 export default function fees() {
   return (
     <>
@@ -106,7 +107,7 @@ export default function fees() {
     </div>
   </section>
   <div className="text-center">
-    <a className='btn btn-primary' href="/about">Back</a>
+    <Link className='btn btn-primary' to="/about">Back</Link>
   </div>
 </>
 
