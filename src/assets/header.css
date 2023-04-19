@@ -1,0 +1,65 @@
+body{
+  background-color: #DFD3C3;
+}
+#header{
+    height: 100%;
+  position: relative;
+}
+.collname {
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-top: 7px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .address {
+    color: white;
+    font-size: 0.9rem;
+    font-family: Poppins;
+    font-weight: 400;
+    padding-top: 3px;
+    padding-left: 2px;
+  }
+  
+  
+  
+  .edulink {
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    font-size: 15px;
+    ;
+    font-family: Poppins;
+    color: #EAE3D2;
+    padding-top: 0;
+    font-weight: 400;
+  }
+  @media only screen and (max-width: 1080px) {
+    /* INDEX */
+    .collname {
+      color: white;
+      font-family: Poppins;
+      font-weight: 600;
+      text-align: left;
+      font-size: 1.5rem;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .ERP,
+    .ac-erp {
+      display: none;
+    }
+  
+    .address {
+      color: white;
+      font-family: Poppins;
+      font-weight: lighter;
+      font-size: 0.8rem;
+      padding: 0;
+      margin: 0;
+    }
+  }  

@@ -1,0 +1,23 @@
+.textsfees {
+    font-size: 80%;
+    font-weight: bolder;
+    font-family: Open-Sans;
+    color: black;
+    padding: 10px;
+  }
+  
+  .yourdata {
+    padding-top: 20px;
+    border-top: 0;
+  }
+  
+  .infotable {
+    position: relative;
+    left: 515px;
+    top: -311px;
+    display: inline-block;
+    position: relative;
+  }
+  .fees table {
+    width: 100%;
+  }

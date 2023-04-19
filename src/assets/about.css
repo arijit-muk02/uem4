@@ -1,0 +1,73 @@
+.profile span{
+    color: #10337d;
+  }
+  .drop2{
+    display: none;
+  }
+  
+  .update {
+    background-color: #1C3879;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  .update:hover {
+    background-color: #2f37ca;
+    cursor: pointer;
+  }
+  .profile{
+    border-left: 2px solid #A9A9A5;
+  }
+  .update:hover{
+    color: white;
+  }
+  button {
+    margin: 4.5px;
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #1C3879;
+    font-size: 15px;
+    background: #ffffff;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    border: solid #1C3879 2px;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    color: white;
+    background: #10337d;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1080px){
+  img{
+    width: 150px;
+  }
+  .update2{
+    display: none;
+  }
+  .drop2{
+    display: inline;
+  }
+  .profile h3{
+    margin-top: 30px;
+  }
+  .profile{
+    text-align: center;
+  }
+  /* .col-lg-7 h3{
+    margin-top: 20px;
+  } */
+  .flex-column{
+    display: none;
+  }
+  /* button{
+    width: 48%;
+  } */
+  }

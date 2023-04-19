@@ -1,0 +1,49 @@
+.routineimg {
+    width: 60%;
+    border: 1px solid;
+    margin-bottom: 10px;
+  }
+  body{
+    background-image: url(../assets/pattern.svg);
+  }
+  .resultid {
+    font-family: Poppins;
+  }
+  
+  .result-table table,
+  .result-table tr,
+  .result-table td {
+    border: 3px solid grey;
+  }
+  .datagiven {
+    font-size: 25px;
+  }
+  
+  .dataasked {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+table{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1080px){
+    .dataasked,
+  .datagiven {
+    font-size: 10px;
+  }
+
+  .routineimg {
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 10px;
+  }
+
+  .result-table table,
+  .result-table tr,
+  .result-table td {
+    border: 1px solid grey;
+  }
+
+}
