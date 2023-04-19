@@ -21,17 +21,17 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route  path="/"  element={<Login/>} />
-        <Route  path="/about"  element={<About/>} />
-        <Route  path="/feedback"  element={<Feedback/>} />
-        <Route  path="/calender"  element={<Calender/>} />
-        <Route  path="/fees"  element={<Fees/>} />
-        <Route  path="/attendance"  element={<Attendance/>} />
-        <Route  path="/forget"  element={<Forget/>} />
-        <Route  path="/result"  element={<Result/>} />
-        <Route  path="/demoResult"  element={<DemoResult/>} />
-        <Route  path="/admit"  element={<Admit/>} />
-        <Route  path="/info"  element={<Info/>} />
+        <Route  exact path="/"  element={<Login/>} />
+        <Route  exact path="/about"  element={<About/>} />
+        <Route  exact path="/feedback"  element={<Feedback/>} />
+        <Route  exact path="/calender"  element={<Calender/>} />
+        <Route  exact path="/fees"  element={<Fees/>} />
+        <Route  exact path="/attendance"  element={<Attendance/>} />
+        <Route  exact path="/forget"  element={<Forget/>} />
+        <Route  exact path="/result"  element={<Result/>} />
+        <Route  exact path="/demoResult"  element={<DemoResult/>} />
+        <Route  exact path="/admit"  element={<Admit/>} />
+        <Route  exact path="/info"  element={<Info/>} />
       </Routes>
     </Router>
   
