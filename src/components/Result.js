@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/result.css';
-
+import { Link } from 'react-router-dom';
 export default function Result() {
   const [selectedSemester, setSelectedSemester] = useState('');
 
@@ -63,7 +63,7 @@ export default function Result() {
           </select>
         </div>
         <div className="text-center">
-  <a href="/about" className='btn btn-primary'>Back</a>
+  <Link to="/about" className='btn btn-primary'>Back</Link>
 </div>
       </div>
     </>
