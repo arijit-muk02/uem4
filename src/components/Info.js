@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/info.css"
 import myImage from "../assets/jerry.jpg";
+import { Link } from "react-router-dom";
 export default function Info() {
   return (
     <>
@@ -69,7 +70,7 @@ export default function Info() {
         </div>
       </div>
       <div className="text-center">
-        <a href="/about" className="btn my-3 btn-primary mt-4">Back</a>
+        <Link to="/about" className="btn my-3 btn-primary mt-4">Back</Link>
       </div>
     </>
   );
