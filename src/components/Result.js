@@ -57,9 +57,9 @@ export default function Result() {
             value={selectedSemester}
           >
             <option value="">Choose...</option>
-            <option value="/demoResult">1st Semester</option>
-            <option value="/demoResult">2nd Semester</option>
-            <option value="/demoResult">3rd Semester</option>
+            <option value="/DemoResult">1st Semester</option>
+            <option value="/DemoResult">2nd Semester</option>
+            <option value="/DemoResult">3rd Semester</option>
           </select>
         </div>
         <div className="text-center">
